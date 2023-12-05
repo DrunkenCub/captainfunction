@@ -6,7 +6,7 @@ import json
 def get_function_schema():
     return {
         "name": "serpdev_search",
-        "description": "This function performs a google search using SerpDev and returns the results.",
+        "description": "This function performs a google search using SerprDev and returns the results.",
         "parameters": {
             "type": "object",
             "properties": {
