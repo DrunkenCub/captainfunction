@@ -37,6 +37,6 @@ def handle_response(arguments):
 
     try:
         response = requests.request("POST", url, headers=headers, data=payload)
-        return response.json()
+        return response.text
     except requests.exceptions.RequestException as e:
         return f"An error occurred during the search: {str(e)}"
